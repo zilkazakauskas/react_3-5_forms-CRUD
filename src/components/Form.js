@@ -15,7 +15,6 @@ export default class Form extends Component {
         };
         this.handleEvent = this.handleEvent.bind(this);
         this.handleForm = this.handleForm.bind(this);
-        // this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleEvent(e) {
@@ -69,10 +68,6 @@ export default class Form extends Component {
             updateID: user.id
         })
     }
-
-
-
-
 
     render() {
         return (
