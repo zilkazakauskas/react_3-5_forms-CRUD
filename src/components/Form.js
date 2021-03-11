@@ -71,8 +71,8 @@ export default class Form extends Component {
 
     render() {
         return (
-            <div className="row">
-            <div className="col-3 ps-4 border border-solid">
+            <div className="row ms-2">
+            <div className="col-3 p-4 border border-2">
                 <form onSubmit={this.handleForm}>
                     <label>Vardas:</label>
                     <p><input type="text" name="vardas" value={this.state.vardas} onChange={this.handleEvent} /></p>
